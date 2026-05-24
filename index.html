@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/styles.css">
-    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="theme-color" content="#120458">
+    <script src="Js/Main.js" defer></script>
     <title>Procrastination - Accueil</title>
 </head>
 
 <!-- Header -->
 <body id="Accueil">
+    <a class="skip-link" href="#contenu-principale">Aller au contenu</a>
     <header class="entete">
-        <a class="logo" href="index.html">Juste 5 minutes devinennent des heures</a>
+        <a class="logo" href="index.html">Procrastination</a>
 
         <!-- Menu Burger -->
         <input id="nav-toggle" class="nav-toggle" type="checkbox">
@@ -29,8 +35,9 @@
             <a href="#Àpropos">À propos</a>
             <a href="#TypeDeProcrastinateur">Types de procrastinateurs</a>
             <a href="#Conseils">Conseils</a>
-            <a href="#Créateurs">Créateurs</a>
+            <a href="#createurs">Créateurs</a>
             <a href="#contacts">Contacts</a>
+            <a href="Nicolas/index.html" target="_blank" rel="noopener noreferrer">ProQuest</a>
         </nav>
     </header>
 
@@ -87,24 +94,40 @@
         </section>
 
         <!-- Section sur les créateurs -->
-        <section class="carte" id="Créateurs">
+        <section class="carte" id="createurs">
             <h1>Les créateurs du site</h1>
             <div class="carrousel-conteneur">
                 <div class="carrousel-adaptative">
-                    <div class="carte-adaptative"><figure><img src="img/Créateurs/Nicolas.jpg" alt="Nicolas, créateur du site"><figcaption></figcaption></figure></div>
+                    <div class="carte-adaptative"><figure><img src="img/Créateurs/Nicolas.png" alt="Nicolas, créateur du site"><figcaption></figcaption></figure></div>
                     <div class="carte-adaptative"><figure><img src="img/Créateurs/Adriano.jpg" alt="Adriano, créateur du site"><figcaption></figcaption></figure></div>
                 </div>   
             </div>
             <h2>Nicolas et Adriano</h2>
-            <h3>Designers graphiques et développeurs</h3>
+            <h3>Designers graphiques et développeurs de web</h3>
             <h4>« Tout est possible à qui rêve, ose, travaille et n'abandonne jamais. » — Xavier Dola</h4>
             
         </section>
     </main>
+    <div class="scanline"></div>
 
     <!-- Section des contacts -->
     <footer id="contacts">
         <h1>Contacts</h1>
+        <p>Retrouvez-nous sur les réseaux sociaux :</p>
+        <div class="social-links">
+            <a class="social-button" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="material-icons">public</span>
+                Twitter
+            </a>
+            <a class="social-button" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="material-icons">photo_camera</span>
+                Instagram
+            </a>
+            <a class="social-button" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="material-icons">business_center</span>
+                LinkedIn
+            </a>
+        </div>
         <p>&copy; 2026 Site de procrastination. Tous droits réservés.</p>
     </footer>
 </body>
