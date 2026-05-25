@@ -199,8 +199,8 @@ section {
 
 .carte {
     background-color: rgba(10, 10, 36, 0.92);
-    border: 2px solid rgba(255, 79, 216, 0.35);
-    border-radius: 1.2rem;
+    border: 6px solid rgba(255, 79, 216, 0.35);
+    
     padding: 1.75rem;
     box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
 }
@@ -309,6 +309,15 @@ section {
 
   .nav-principale a {
     padding: 0.75rem 0.9rem;
+  }
+
+  .carte h1,
+  .carte h2 {
+    font-size: clamp(1.2rem, 4vw, 1.4rem);
+    line-height: 1.2;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   .carte ul {
